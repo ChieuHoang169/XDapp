@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.xdapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\XDAPP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\XDAPP\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\XDAPP\app\src\main\AndroidManifest.xml:5:5-22:19
+12        android:allowBackup="true"
+12-->D:\XDAPP\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6b31375f5de394371f5ac18dbca24ba1\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->D:\XDAPP\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->D:\XDAPP\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->D:\XDAPP\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->D:\XDAPP\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->D:\XDAPP\app\src\main\AndroidManifest.xml:11:9-40
+22        <activity
+22-->D:\XDAPP\app\src\main\AndroidManifest.xml:12:9-21:20
+23            android:name="com.example.xdapp.MainActivity"
+23-->D:\XDAPP\app\src\main\AndroidManifest.xml:13:13-41
+24            android:label="@string/app_name" >
+24-->D:\XDAPP\app\src\main\AndroidManifest.xml:14:13-45
+25            <intent-filter>
+25-->D:\XDAPP\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\XDAPP\app\src\main\AndroidManifest.xml:17:17-69
+26-->D:\XDAPP\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\XDAPP\app\src\main\AndroidManifest.xml:19:17-77
+28-->D:\XDAPP\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2bdb40edc77e62430a61e9d714ec2481\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+33            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+33-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2bdb40edc77e62430a61e9d714ec2481\extensions-1.1.1\AndroidManifest.xml:24:13-83
+34            android:authorities="com.example.xdapp.lifecycle-trojan"
+34-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2bdb40edc77e62430a61e9d714ec2481\extensions-1.1.1\AndroidManifest.xml:25:13-68
+35            android:exported="false"
+35-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2bdb40edc77e62430a61e9d714ec2481\extensions-1.1.1\AndroidManifest.xml:26:13-37
+36            android:multiprocess="true" />
+36-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2bdb40edc77e62430a61e9d714ec2481\extensions-1.1.1\AndroidManifest.xml:27:13-40
+37    </application>
+38
+39</manifest>
